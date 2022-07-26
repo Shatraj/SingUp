@@ -1,0 +1,81 @@
+.container1{
+    border: 4px;
+    display: flex;
+    width: 90.7%;
+    margin: 80%;
+  padding: 1%;
+}
+
+
+
+
+<div class="footer">
+<div class="container1footer">
+  <div class="itemfooter">
+    <h3> Beauty Magazine</h3>
+    <p> Our purpose is to help you find your next haircut, hairstyle or color that you'll love.</p>
+
+<div class="itemfooter"></div>
+  </div>
+</div>
+
+<p class="text-center"> Developed by Aleksandra</p>
+</div>  
+
+
+
+_
+<div class="container1">
+  <div class="item">
+    <h2> Trends</h2>
+    
+
+    <p class="txt">&#10084; 3 Tricks for Identifying Your Skin’s Undertone</p>
+    <br/><br/><br/>
+    <a href="C:\Users\User\Desktop\MyPro\1.html">
+    <img src="4.jpg" href="C:\Users\User\Desktop\MyPro\1.html" width="400px"height="350px"></a>
+    <br/><br/>
+    <p class="txt"> &#10084; Here’s How Hard Water and Soft Water Can Affect Your Hair Texture</p>
+    <img src="6.jpg" width="400px"height="350px">
+    <br/><br>
+    <p class="txt"> &#10084; 8 Tips for Adding Volume to Fine and Thin Hair — No Extensions Necessary</p>
+    <img src="5.jpg" width="400px"height="350px">
+    <br/><br>
+    <p class="txt"> &#10084; Here’s How to Fake Baby Hairs With Tattoo Edges</p>
+    <img src="8.jpg" width="400px"height="350px">
+  </div>
+
+
+
+
+
+
+  <div class="item1">
+    <br/><br/><br/><br/><br/><br/>
+    <h4 style="background-color: black;color:white;"> More clicked</h4>
+    <br/>
+    <p> Short Hairstyles</p>
+    <img src="7.jpg" width="200px"height="150px">
+    <br/>
+    <p> Rainbow Makeup</p>
+    <img src="2.jpg" width="200px" height="150px">
+    <p> Crochet Hairstyles</p>
+    <img src="9.jpg" width="200px" height="150px">
+    <p> Bob Haircuts</p>
+    <img src="10.jpg" width="200px" height="150px">
+    <p> Silver and Gray</p>
+    <img src="11.jpg" width="200px" height="150px">
+    <p> Wear Pigtails</p>
+    <img src="12.jpg" width="200px" height="150px">
+    <p> Fall Hairstyle</p>
+    <img src="13.jpg" width="200px" height="150px">
+    <p> Sisterlocks, Answered</p>
+    <img src="14.jpg" width="200px" height="150px">
+    <a href="#">
+    <p style="background-color: lightblue; font-weight: bold;font-family: Verdana, Geneva, Tahoma, sans-serif;color: blue;"> Learn more...</p>
+    </a>
+  </div>
+
+
+</div>
+    

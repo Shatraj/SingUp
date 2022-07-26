@@ -1,0 +1,133 @@
+body {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    
+
+  }
+  
+  .main-content {
+  
+    background-image: url(https://i.pinimg.com/564x/11/23/61/1123611fec21e5a12528298b8c67cc01.jpg);
+  
+  
+  
+  
+  }
+  
+  .container {
+    width: auto;
+    height: auto;
+    margin: 5%;
+    padding: 0% auto;
+  
+  }
+  
+  .wrapper {
+    padding: 4%;
+    width: 80%;
+    margin: 0% auto;
+    background-color: rgb(255, 255, 255)
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: black;
+    border: 2px solid rgb(44, 0, 38);
+    border-radius: 10px;
+  
+  }
+  
+  .topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: double;
+    font-size: 14px;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 148, 211);
+    border-radius: 16px;
+  }
+  
+  .topnav a.active {
+    background-color: rgb(249, 75, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 16px;
+  }
+  
+  * {
+    box-sizing: border-box
+  }
+  
+  body {
+    font-family: Verdana, sans-serif;
+    margin: 0
+  }
+  .san{
+    width: 1000px;
+    height: 400px;
+    background-color: pink;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+ 
+  }
+  .san2{
+    width: 1000px;
+    height: 200px;
+
+
+  
+  }
+  .san1{
+    width: 1400px;
+    height: 200px;
+   
+  }
+
+  h1{
+    font-size: 40px;
+    text-align: center;
+    background:linear-gradient(270deg,#b527cf,#3bd9d9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    align-items: center;
+   
+  }
+  .btn{
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    border: 0;
+    border-radius: 64px;
+    padding: 8px 56px;
+    color: white;
+    background-color: #b527cf;
+    cursor: pointer;
+    overflow: hidden;
+    transform: translate(0);
+  }
+  btn::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, #b527cf, #3bd9d9);
+    transition: 0.4s ease;
+    transform: scaleX(0);
+    transform-origin: 100% 0%;
+  }
+  btn:hover::before{
+    transform: scaleX(1.1)scaleY(1.1);
+  }

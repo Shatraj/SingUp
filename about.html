@@ -1,0 +1,67 @@
+<!DOCTYPE <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="about.css">
+    </head>
+    <body>
+        
+        <div class="topnav">
+            <a href="Home.html"> Home</a>
+            <a href="Make-up.html"> Make-up</a>
+            <a href="hair.html"> Hair</a>
+            <a class="active"  href="about.html"> About</a>
+          </div>
+
+          <div class="main-content">
+            <div class="wrapper text-center">
+
+<div class="container">
+<form onsubmit="sendEmail(); reset(); return false;">
+<h3> GET IN TOUCH</h3>
+<input type="text" id="name" placeholder="Your Name" required>
+<input type="email" id="email" placeholder="Your E-mail" required>
+<input type="text" id="Phone" placeholder="Your Phone" required>
+<textarea id="message" rows="4" placeholder="How can We help You?" > Your Message</textarea>
+<button type="submit"> Send</button>
+</form>
+
+</div>
+
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+<script>
+    function sendEmail(){
+        Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "aleksandrashatraj@gmail.com",
+    Password : "Sandra123?." , 
+    To : 'aleksandrashatraj@gmail.com',
+    From : document.getElementById("email").value,
+    Subject : "New Contact form Enquiry",
+    Body : "Name:"+ document.getElementById("name").value
+    + "<br> Email:"+ document.getElementById("email").value
+    + "<br> Phone:" + document.getElementById("Phone").value
+    +"<br> Message:" +document.getElementById("message").value
+}).then(
+  message => alert(message)
+);
+    }
+</script>
+
+
+
+
+            </div></div>
+
+     
+    </body>
+</html>>
